@@ -1,0 +1,26 @@
+{
+  "name": "shop-my-fit",
+  "version": "2.0.0",
+  "description": "Curated clothing resale e-commerce platform",
+  "main": "shop-my-fit.html",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "ecommerce",
+    "resale",
+    "clothing",
+    "fashion"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "stripe": "^14.10.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.10.1"
+  }
+}
